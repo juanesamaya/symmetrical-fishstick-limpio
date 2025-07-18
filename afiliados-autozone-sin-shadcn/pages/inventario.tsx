@@ -1,5 +1,7 @@
 import { useState } from 'react';
-import { Card, CardContent } from '@/components/ui/card';
+// Update the import path below to the correct relative path where Card and CardContent are located.
+// For example, if they are in components/ui/card.tsx relative to the pages directory:
+import { Card, CardContent } from '../components/ui/card';
 
 export default function Inventario() {
   const [vehiculos, setVehiculos] = useState([
